@@ -10,7 +10,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import numpy as np
 
-path_data = r"C:\Users\wldn\Downloads\car_price_dataset.csv"
+path_data = "car_price_dataset.csv"
 data = pd.read_csv(path_data)
 
 # Target harga langsung (bukan kategori harga)
