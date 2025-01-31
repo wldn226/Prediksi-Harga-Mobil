@@ -56,7 +56,8 @@ for name, model in models.items():
         "RMSE": np.sqrt(mean_squared_error(y_test, y_pred)),
         "R2 Score": r2_score(y_test, y_pred),
     }
-
+# Convert results to DataFrame
+results_df = pd.DataFrame(results).T
 
 
 # Streamlit UI
