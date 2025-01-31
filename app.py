@@ -57,8 +57,7 @@ for name, model in models.items():
         "R2 Score": r2_score(y_test, y_pred),
     }
 
-# Convert results to DataFrame
-results_df = pd.DataFrame(results).T
+
 
 # Streamlit UI
 st.title("Mobil Price Prediction & Model Evaluation")
